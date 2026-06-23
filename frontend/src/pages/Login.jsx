@@ -48,6 +48,7 @@ function Login() {
           placeholder="Email"
           onChange={handleChange}
         />
+        <br/>
 
         <input
           type="password"
@@ -55,6 +56,7 @@ function Login() {
           placeholder="Password"
           onChange={handleChange}
         />
+        <br/>
 
         <button type="submit">
           Login

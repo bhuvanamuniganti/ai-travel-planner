@@ -40,21 +40,21 @@ function Register() {
           placeholder="Name"
           onChange={handleChange}
         />
-
+        <br/>
         <input
           type="email"
           name="email"
           placeholder="Email"
           onChange={handleChange}
         />
-
+        <br/>
         <input
           type="password"
           name="password"
           placeholder="Password"
           onChange={handleChange}
         />
-
+         <br/>
         <button type="submit">
           Register
         </button>
